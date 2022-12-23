@@ -1,14 +1,11 @@
-import java.util.Scanner;
-
 public class Star_Pattern {
 
         public static void main(String[] args)
         {
-            Scanner scanner = new Scanner(System.in);
 
             System.out.println("Enter the number of rows: ");
 
-            int rows = scanner.nextInt();
+            int rows = 4;
 
             for (int i=0; i<rows-1 ; i++)
             {
